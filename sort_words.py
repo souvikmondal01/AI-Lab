@@ -1,0 +1,5 @@
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+words.sort()
+print("The sorted words are: ")
+print(*words, sep="\n")
